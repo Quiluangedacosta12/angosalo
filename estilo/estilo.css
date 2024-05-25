@@ -1,0 +1,204 @@
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    opacity: 20%;
+}
+
+
+/*
+* MENU - CABECALHO
+*/
+
+.cabeca {
+    height: 100px;
+    padding-bottom: 25px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.caixa {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.logotipo {
+    font-size: 25pt;
+    font-weight: bolder;
+    color: #10002c; 
+}
+
+.candidato {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #10002c;
+    transition: 0.1s;
+    margin: 5px;
+}
+
+.candidato:hover {
+    color: #0000ff;
+    transition: 0.1s;
+}
+
+.active {
+    color: #0000ff;
+}
+
+.empregador {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #10002c;
+    transition: 0.1s;
+    margin: 5px;
+}
+
+.empregador:hover {
+    color: #0000ff;
+    transition: 0.1s;
+}
+
+.iniciar  {
+    border: 1px solid #10002c;
+    margin-right: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: #10002c;
+    transition: 0.1s;
+}
+
+.iniciar:hover  {
+    border: 1px solid #0000ff;
+    color: #0000ff;
+    transition: 0.1s;
+}
+
+.criar  {
+    background-color: #0000ff;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.1s;
+}
+
+.criar:hover  {
+    background-color: #6b6bff;
+    color: #fff;
+    transition: 0.1s;
+}
+
+
+/*
+* CORPO CONTEINER
+*/
+
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.texto {
+    font-size: 25pt;
+    margin: 150px 30px auto 180px;
+    color: #10002c;
+}
+
+.texto span {
+    font-size: 15pt;
+}
+
+.imagem {
+    margin: 150px 180px auto auto;
+    height: 600px;
+}
+
+.texto2 {
+    font-size: 25pt;
+    margin: 150px 150px auto 80px;
+    color: #10002c;
+}
+
+.texto2 span {
+    font-size: 15pt;
+}
+
+.imagem2 {
+    margin: 150px auto auto 180px;
+    height: 600px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.container3 h2 {
+    margin: 100px auto 0px 180px;
+    color: #10002c;
+    font-size: 25pt;
+}
+
+.container3 h3 {
+    margin: 100px 30px 0px 180px;
+    color: #10002c51;
+    font-size: 15pt;
+    font-weight: 100;
+}
+
+.container3 .f1 {
+    margin: 50px auto 0px 130px;
+}
+
+.container3 .f2 {
+    margin: 50px auto auto auto;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.caixa2 {
+    width: 300px;
+    margin: 100px auto auto auto;
+    display: flex;
+}
+
+.dimg {
+    padding-right: 20px;
+}
+
+.caixa2 h3 {
+    color: #0000ff;
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+
+.caixa2 span {
+    color: #10002c51;
+    font-size: 11pt;
+    line-height: 1.5;
+}
+

@@ -1,0 +1,53 @@
+
+.rodape {
+    margin-top: 100px;
+    background-color: #aaaaaa5b;
+    padding: 40px;
+}
+.rodape .area8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.rodape .area8 h4 {
+    color: #10002c;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+.rodape .area8 a {
+    color: #10002c;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+    margin-bottom: 10px;
+    transition: 0.10s;
+}
+
+.rodape .area8 a:hover {
+    color: #10002c;
+    transform: 0.10s;
+}
+
+.rodape .area8 .rodape1 {
+    width: 300px;
+}
+
+.rodape .area8 .rodape1 img {
+    height: 40px;
+}
+
+.rodape .area8 .rodape1 p {
+    color: #10002c;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.32px;
+    padding-right: 15px;
+}
